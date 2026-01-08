@@ -52,4 +52,13 @@ num1 = num2 = num3 = 2 + 2;
 
 console.log(num1, num2, num3);
 
+//comparison 
+console.log("2">1);
+console.log("02">1);
 
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+console.log(null == undefined);
+
+// 
