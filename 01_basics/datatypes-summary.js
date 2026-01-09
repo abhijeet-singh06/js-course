@@ -38,3 +38,28 @@ console.log(typeof myObj);
 console.log(typeof myFunc);
 console.log(typeof id);
 
+
+
+// ***************** Memory ******************
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubename = "Viraj Singh";
+
+let anotherName = myYoutubename;
+anotherName = "Code with Viraj";
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "viraj@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
