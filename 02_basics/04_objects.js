@@ -52,16 +52,31 @@ const users = [
         userName: "Viraj",
     },
 ]
+// console.log(users[1].userId);
 
-console.log(users[1].userId);
+// console.log(tinderUser);
 
-console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));   // tells whether the object has the specified property as its own property
-
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));   // tells whether the object has the specified property as its own property
 
 
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh Choudhary",
+}
+
+// course.courseInstructor
+
+
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);  // it will give error as courseInstructor is not defined in this scope
+
+console.log(instructor);
