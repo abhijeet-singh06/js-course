@@ -80,3 +80,15 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);  // it will give error as courseInstructor is not defined in this scope
 
 console.log(instructor);
+
+// {
+//    " name": "Viraj",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
