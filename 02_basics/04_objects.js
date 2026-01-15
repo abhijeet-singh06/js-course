@@ -91,4 +91,4 @@ console.log(instructor);
     {},
     {},
     {}
-]
+]      // array of objects
