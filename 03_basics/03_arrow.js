@@ -46,8 +46,9 @@ const chai =  () => {         // arrow function
 // implicit return
 // const addTwo = (num1, num2) => num1 + num2;
 
-// const addTwo = (num1, num2) => (num1 + num2);   
-// // parentheses are optional here but when we use curly braces we need to use return statement
+// const addTwo = (num1, num2) => (num1 + num2);
+   
+// // parentheses are optional here but when we use curly braces (line 41) we need to use return statement
 
 
 const addTwo = (num1, num2) => ({username: "viraj"})
